@@ -1,0 +1,138 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+  .container{
+   display: flex;
+   grid-auto-flow: column;
+   grid-auto-columns: 1fr;
+   padding: auto;
+   align-items: center;
+}
+
+body{
+   border: 0%;
+   padding: 0%;
+   margin: 0%;
+}
+.start{
+   background-image: url("img/Fundo-Topo.png")
+}
+
+#logo{
+   padding: 65px;
+}
+
+.textStart{
+   margin: 0px;
+   padding: 30px 0px 30px 170px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 128.5%;
+   /* or 51px */
+   color: #FFFFFF;
+}
+
+.text{
+   margin: 0px;
+   padding: 30px 0px 30px 170px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 150%;
+   /* or 30px */
+
+   color: #FFFFFF;
+}
+
+#treeIcons{
+   background: #EAECE5;
+   display: flex;
+   grid-auto-flow: column;
+   align-items: auto;
+}
+
+.picture{
+   text-align: center;
+}
+
+div h3{
+   padding: 5px;
+   text-align: center;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 150%;
+   /* identical to box height, or 30px */
+
+   /* display: flex;
+   align-items: center; */
+
+   color: #122235;
+}
+
+#clip{
+   width: 40%;
+   padding: 80px 0px 80px 100px;
+}
+.title{
+   padding: 60px 0px 15px 60px ;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 150%;
+   color: #247BA0;
+}
+
+.paragraphs{
+   padding: 0px 0px 0px 60px ;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #383838;
+}
+
+#students500{
+   background: #247BA0;
+}
+
+.titleStudent{
+  text-align: center;
+  width: 100%;
+}
+
+.titleStudent h1{
+   
+   text-align: center;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 150%;
+   color: #EAECE5;
+}
+
+.quadWhite{
+   background-color: white;
+   border-radius: 15px;
+   margin: 20px;
+   padding: 10px;
+}
+
+.quadWhite h4,h5{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #383838;
+}
+
+.quadWhite h4{
+   font-weight: bold
+}
